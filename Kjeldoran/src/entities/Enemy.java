@@ -2,9 +2,10 @@ package entities;
 
 public class Enemy extends BasicEntity{
 
-	public Enemy(int mh, int ms, int mm) {
-		super(mh, ms, mm);
-
+	Enemy(int maxH, int maxS, int maxM, int maxA, int maxD, int maxAcc) {
+		super(maxH, maxS, maxM, maxA, maxD, maxAcc);
+		// TODO Auto-generated constructor stub
 	}
 
-}
+	
+	}
